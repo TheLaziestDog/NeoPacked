@@ -102,11 +102,12 @@ set splitbelow splitright
 nnoremap <silent> <leader>sd :vsp<CR>
 nnoremap <silent> <leader>sa :split<CR>
 
-" Remap splits navigation to just CTRL + hjkl
+" Remap splits navigation to <leader>wasd
 nnoremap <leader>a <C-w>h
 nnoremap <leader>s <C-w>j
 nnoremap <leader>w <C-w>k
 nnoremap <leader>d <C-w>l
+
 " Make adjusing split sizes a bit more friendly
 noremap <silent> <A-a> :vertical resize +3<CR>
 noremap <silent> <A-d> :vertical resize -3<CR>
@@ -140,7 +141,6 @@ nnoremap <silent> <leader>fq :FlutterQuit<CR>
 let g:dart_style_guide = 4
 let g:dart_format_on_save = 0
 
-" Coc
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
