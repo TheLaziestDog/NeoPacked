@@ -87,7 +87,7 @@ Run `:PlugClean` to remove any disabled or unused plugins<br>
 Run `:PlugUpdate` to update plugins<br>
 
 ## ❤️ Contribute
-You can contribute any time on this project, if you want to discuss about this projects just hit me up on discord [Berlin#1034](), my dm's are open to everyone. 
+You can contribute any time on this project, if you want to discuss about this projects feel free to dm me on discord [Berlin#1034](). 
 If you just want to ask question like if you had an error, just discuss it on [issues](https://github.com/TheLaziestDog/NeoPacked/issues).
 
 ## ⭐ Similiar Projects
