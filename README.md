@@ -20,7 +20,7 @@ If you want this configuration for your own neovim, dont clone this repo, just c
 - Cool screen greeter by [alpha-nvim](https://github.com/goolord/alpha-nvim)
 - Fuzzy finder by [fzf.vim](https://github.com/junegunn/fzf)
 - Autocompletion with [coc.nvim](https://github.com/neoclide/coc.nvim)
-- Syntax highlighting with [nvim-tree](https://github.com/nvim-treesitter/nvim-treesitter)
+- Syntax highlighting with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ## ❤️ Contribute
 You can contribute any time on this project, if you want to discuss about this projects just hit me up on discord [Berlin#1034], my dm's are open to everyone. 
