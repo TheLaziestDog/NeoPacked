@@ -5,6 +5,7 @@
     </a>
     <a href="https://neovim.io/">
       <img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white"/>
+    </a>
 </div>
 
 NeoBased is a compact neovim config that fit for everyone needs. NeoBased uses vimscript and lua in a one configuration, So it's not particularly a performance beast. NeoBased is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
