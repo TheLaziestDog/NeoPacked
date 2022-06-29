@@ -1,11 +1,13 @@
-<h1 align="center">💪 NvBased 💪</h1>
+<h1 align="center">💪 NeoBased 💪</h1>
 <div align="center"><p>
     <a href="https://github.com/TheLaziestDog/NvBased/pulse">
       <img src="https://img.shields.io/github/last-commit/TheLaziestDog/NvBased?color=%4dc71f&label=Last%20Commit&logo=github&style=flat-square"/>
     </a>
+    <a href="https://neovim.io/">
+      <img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white"/>
 </div>
 
-NvBased is a compact neovim config that fit for everyone needs. NvBased uses vimscript and lua in one configuration, So it's not particularly a performance beast. NvBased is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
+NeoBased is a compact neovim config that fit for everyone needs. NeoBased uses vimscript and lua in a one configuration, So it's not particularly a performance beast. NeoBased is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
 
 ## ✨ Showcase ✨
 ![Dashboard](https://user-images.githubusercontent.com/108339770/176351253-3831355c-6d51-4fe0-ab69-27160a1aebea.png)
@@ -24,9 +26,9 @@ NvBased is a compact neovim config that fit for everyone needs. NvBased uses vim
 - Syntax highlighting with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ## 📙 Read This
-- If you want this configuration for your own neovim, dont clone this repo, just copy the code and modify it, cause there's a few things that you must change or modify to make this config to work, like the vim plug, git, fzf, etc. 
+- This configuration only works for windows out of the box, you need to modify a few things to make this config work on other operating system
 
-- Clone this repo if you know how to modify all of this stuff to suit your system.
+- I recommend not to clone and directly install this config, but to fork it, inspect the code, and adjust it to your preference. The best neovim configuration is what _you_ make, and this config is only supposed to provide you the tools to do so.
 
 ## ⚡ Requirement
 - A patched font - [Nerd Font](https://www.nerdfonts.com/font-downloads)
