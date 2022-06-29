@@ -18,13 +18,15 @@ If you want this configuration for your own neovim, dont clone this repo, just c
 - Basic but functional bufferline by [vim-buftabline](https://github.com/ap/vim-buftabline)
 - Pretty and customizable terminal by [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - Cool screen greeter by [alpha-nvim](https://github.com/goolord/alpha-nvim)
-- Fuzzy finder by [fzf.vim](junegunn/fzf)
+- Fuzzy finder by [fzf.vim](https://github.com/junegunn/fzf)
 - Autocompletion with [coc.nvim](https://github.com/neoclide/coc.nvim)
 - Syntax highlighting with [nvim-tree](https://github.com/nvim-treesitter/nvim-treesitter)
 
-## Contribute
+## ❤️ Contribute
+You can contribute any time on this project, if you want to discuss about this projects just hit me up on discord [Berlin#1034], my dm's are open to everyone. 
+If you just want to ask question like if you had an error, just discuss it on issues.
 
-## Similiar Projects
+## 🔥 Similiar Projects
 - ✨ [NvChad](https://github.com/NvChad/NvChad) had inspired me to make this config, cause i want pretty design but fast performance
 - ✨ [Lunarvim](https://github.com/LunarVim/LunarVim) introduce me to the world of vim configuration
 - ✨ [AstroNvim](https://github.com/AstroNvim/AstroNvim) its kinda cool too
