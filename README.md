@@ -1,30 +1,33 @@
-<h1 align="center">💪 NeoBased 💪</h1>
+<h1 align="center">📦 NeoPacked</h1>
 <div align="center"><p>
     <a href="https://github.com/TheLaziestDog/NvBased/pulse">
       <img src="https://img.shields.io/github/last-commit/TheLaziestDog/NvBased?color=%4dc71f&label=Last%20Commit&logo=github&style=flat-square"/>
     </a>
     <a href="https://neovim.io/">
       <img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white"/>
-    </a>
+      </a>
 </div>
 
-NeoBased is a compact neovim config that fit for everyone needs. NeoBased uses vimscript and lua in a one configuration, So it's not particularly a performance beast. NeoBased is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
+NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses vimscript and lua in a one configuration, So it's not particularly a performance beast. NeoPacked is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
 
 ## ✨ Showcase ✨
 ![Dashboard](https://user-images.githubusercontent.com/108339770/176351253-3831355c-6d51-4fe0-ab69-27160a1aebea.png)
 ![Showcase_2](https://user-images.githubusercontent.com/108339770/176351657-e6f25b58-b1c1-41f3-8610-d032c8974122.png)
 ![Showcase_3](https://user-images.githubusercontent.com/108339770/176351953-560cfc54-c79d-44fc-9b59-bab765060c3a.png)
 
-## ✨ Features
+## 🔌 Plugins List
 - Vscode like theme with [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
 - Pretty statusline by [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - File navigation / manager with [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - Basic but functional bufferline by [vim-buftabline](https://github.com/ap/vim-buftabline)
-- Pretty and customizable terminal by [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
-- Cool screen greeter by [alpha-nvim](https://github.com/goolord/alpha-nvim)
-- Fuzzy finder by [fzf.vim](https://github.com/junegunn/fzf)
+- Pretty and customizable terminal toggler by [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
+- Customizable screen greeter by [alpha-nvim](https://github.com/goolord/alpha-nvim)
+- Fuzzy finder (file searching, previewing code, word finder, etc) by [fzf.vim](https://github.com/junegunn/fzf)
 - Autocompletion with [coc.nvim](https://github.com/neoclide/coc.nvim)
 - Syntax highlighting with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- Autoclosing braces and html tags with  [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- Colorhighlighter for css, hex, etc (you need to manually configure it) by [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)
+- Multiple cursor experience by [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
 ## 📙 Read This
 - This configuration only works for windows out of the box, you need to modify a few things to make this config work on other operating system
@@ -41,6 +44,29 @@ NeoBased is a compact neovim config that fit for everyone needs. NeoBased uses v
 	- [Python](https://www.python.org/)
 	- [Node](https://nodejs.org/en/)
 	- C compiler for treesitter, like [llvm](https://llvm.org), [gcc](https://gcc.gnu.org), [cl](https://docs.microsoft.com/en-us/cpp/build/reference/compiler-options?view=msvc-170), [zig](https://ziglang.org/), etc
+
+## 🔨  Installation
+#### Make a backup of your current nvim folder
+
+```
+move ~/.config/nvim ~/.config/nvimbackup
+
+```
+
+#### Clone the repository
+
+```
+git clone https://github.com/TheLaziestDog/NeoPacked
+```
+### Install vim-plug
+```
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+```
+###  Run Neovim (you may need to restart your terminal first)
+```
+nvim +PlugInstall
+```
 
 ## 📦 Basic Setup
 #### Install LSP (COC)
@@ -64,6 +90,6 @@ You can contribute any time on this project, if you want to discuss about this p
 If you just want to ask question like if you had an error, just discuss it on issues.
 
 ## ⭐ Similiar Projects
-- ✨ [NvChad](https://github.com/NvChad/NvChad) had inspired me to make this config, cause i want pretty design but fast performance
-- ✨ [Lunarvim](https://github.com/LunarVim/LunarVim) introduce me to the world of vim configuration
-- ✨ [AstroNvim](https://github.com/AstroNvim/AstroNvim) its kinda cool too
+- [NvChad](https://github.com/NvChad/NvChad) had inspired me to make this config, cause i want pretty design but fast performance
+- [Lunarvim](https://github.com/LunarVim/LunarVim) introduce me to the world of vim configuration
+- [AstroNvim](https://github.com/AstroNvim/AstroNvim) its kinda cool too
