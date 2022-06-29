@@ -5,9 +5,9 @@
     </a>
     <a href="https://neovim.io/">
       <img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white"/>
-      </a>
+    </a>
       <a href="https://github.com/TheLaziestDog/NeoPacked/issues">
-      <img src=https://img.shields.io/github/issues/TheLaziestDog/NeoPacked?style=flat-square&label=Issues&color=d77982/> 
+      <img src=https://img.shields.io/github/issues/TheLaziestDog/NeoPacked?color=orange&style=flat-square/>
       </a>
 </div>
 
