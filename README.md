@@ -88,7 +88,7 @@ Run `:PlugUpdate` to update plugins<br>
 
 ## ❤️ Contribute
 You can contribute any time on this project, if you want to discuss about this projects just hit me up on discord [Berlin#1034](), my dm's are open to everyone. 
-If you just want to ask question like if you had an error, just discuss it on issues.
+If you just want to ask question like if you had an error, just discuss it on [issues](https://github.com/TheLaziestDog/NeoPacked/issues).
 
 ## ⭐ Similiar Projects
 - [NvChad](https://github.com/NvChad/NvChad) had inspired me to make this config, cause i want pretty design but fast performance
