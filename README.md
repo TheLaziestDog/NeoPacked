@@ -39,11 +39,11 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 - Neovim 0.7 and beyond - [Neovim 0.7 +](https://github.com/neovim/neovim/releases/tag/v0.7.0)
 - Fuzzy Finder - [Fzf](https://github.com/junegunn/fzf)
 - Git - [Git](https://git-scm.com/)
+- C compiler for treesitter, like [llvm](https://llvm.org), [gcc](https://gcc.gnu.org), [cl](https://docs.microsoft.com/en-us/cpp/build/reference/compiler-options?view=msvc-170), [zig](https://ziglang.org/), etc
 - Optional requirements:
 	- [ripgrep](https://github.com/BurntSushi/ripgrep)
 	- [Python](https://www.python.org/)
 	- [Node](https://nodejs.org/en/)
-	- C compiler for treesitter, like [llvm](https://llvm.org), [gcc](https://gcc.gnu.org), [cl](https://docs.microsoft.com/en-us/cpp/build/reference/compiler-options?view=msvc-170), [zig](https://ziglang.org/), etc
 
 ## 🔨  Installation
 #### Make a backup of your current nvim folder
