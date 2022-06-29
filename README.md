@@ -3,9 +3,11 @@
     <a href="https://github.com/TheLaziestDog/NvBased/pulse">
       <img src="https://img.shields.io/github/last-commit/TheLaziestDog/NvBased?color=%4dc71f&label=Last%20Commit&logo=github&style=flat-square"/>
     </a>
-    <a href="https://neovim.io/">
+    <a href="https://neovim.io">
       <img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white"/>
 </div>
+
+NvBased is a compact neovim config that fit for everyone needs. NvBased uses vimscript and lua in one configuration, So it's not particularly a performance beast. NvBased is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
 
 ## ✨ Showcase ✨
 ![Dashboard](https://user-images.githubusercontent.com/108339770/176351253-3831355c-6d51-4fe0-ab69-27160a1aebea.png)
@@ -13,7 +15,7 @@
 ![Showcase_3](https://user-images.githubusercontent.com/108339770/176351953-560cfc54-c79d-44fc-9b59-bab765060c3a.png)
 
 ## ✨ Features
-- Vscode like colorscheme with [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
+- Vscode like theme with [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
 - Pretty statusline by [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - File navigation / manager with [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - Basic but functional bufferline by [vim-buftabline](https://github.com/ap/vim-buftabline)
