@@ -7,7 +7,7 @@
       <img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white"/>
     </a>
       <a href="https://github.com/TheLaziestDog/NeoPacked/issues">
-      <img src=https://img.shields.io/github/issues/TheLaziestDog/NeoPacked?color=orange&style=flat-square/>
+      <img src="https://img.shields.io/github/issues/TheLaziestDog/NeoPacked?color=orange&style=flat-square"/>
       </a>
 </div>
 
