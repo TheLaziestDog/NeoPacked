@@ -49,7 +49,7 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 #### Make a backup of your current nvim folder
 
 ```
-move ~/.config/nvim ~/.config/nvimbackup
+move ~/AppData/Local/nvim ~/AppData/Local/nvimbackup
 ```
 
 #### Clone the repository
