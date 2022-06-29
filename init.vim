@@ -13,7 +13,6 @@ set relativenumber
 set signcolumn=yes
 set noswapfile
 set nobackup
-set undodir=C:/Users/ASUS/AppData/Local/nvim/undodir
 set undofile
 set incsearch
 set nohlsearch
@@ -33,7 +32,7 @@ set noshowmode
 set completeopt-=preview " For No Previews
 filetype indent on
 
-call plug#begin("C:/Users/ASUS/AppData/Local/nvim/plugged")
+call plug#begin()
 
 " Colorscheme
 Plug 'tomasiser/vim-code-dark' " vscode style colorscheme
@@ -48,7 +47,7 @@ Plug 'ap/vim-buftabline' " basic bufferline
 Plug 'akinsho/toggleterm.nvim' " terminal
 Plug 'nvim-lua/plenary.nvim' " for lua stuff, idk
 Plug 'goolord/alpha-nvim' " dashboard
-Plug 'norcalli/nvim-colorizer.lua'  colorhighlighter
+Plug 'norcalli/nvim-colorizer.lua' " colorhighlighter for hex, etc
 
 " Fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fzf binaries
@@ -56,12 +55,6 @@ Plug 'junegunn/fzf.vim' " fzf port for vim
 
 " Auto Completeion, lsp, etc
 Plug 'neoclide/coc.nvim'  " Auto Completion
-Plug 'akinsho/flutter-tools.nvim' " better flutter development on vim
-Plug 'SirVer/ultisnips' " Snippet engine
-Plug 'honza/vim-snippets' " Snippet loader
-Plug 'natebosch/dartlang-snippets' " Snippet for dartlang
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' } " go development on vim
-Plug 'dart-lang/dart-vim-plugin' "  plugin pack
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Syntax highliting
 
 set encoding=UTF-8
@@ -70,11 +63,6 @@ call plug#end()
 " general uses
 nnoremap <silent> <C-s> :w<CR>
 nnoremap <silent> <leader>qq :wq<CR>
-nnoremap <silent> <leader>fc :e C:/Users/ASUS/AppData/Local/nvim/init.vim<CR>
-
-" for pasting stuff
-nnoremap <silent> <leader>y :set nopaste<CR>
-nnoremap <silent> <leader>v :set paste<CR>
 
 " NvimTree mappings
 nnoremap <silent> <leader>e :NvimTreeFocus<CR>
@@ -103,12 +91,11 @@ set splitbelow splitright
 nnoremap <silent> <leader>sd :vsp<CR>
 nnoremap <silent> <leader>sa :split<CR>
 
-" Remap splits navigation to <leader>wasd
+" Remap splits navigation to just CTRL + hjkl
 nnoremap <leader>a <C-w>h
 nnoremap <leader>s <C-w>j
 nnoremap <leader>w <C-w>k
 nnoremap <leader>d <C-w>l
-
 " Make adjusing split sizes a bit more friendly
 noremap <silent> <A-a> :vertical resize +3<CR>
 noremap <silent> <A-d> :vertical resize -3<CR>
@@ -132,16 +119,7 @@ autocmd TermEnter term://*toggleterm#*
 nnoremap <silent><leader>\\ <Cmd>exe v:count1 . "ToggleTerm"<CR>
 inoremap <silent><leader>\\ <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>
 
-" autocompletionn / lsp / etc stuff
-nnoremap <leader>5 :FlutterDevices<CR>
-nnoremap <leader>6 :CocCommand flutter.create<CR>
-nnoremap <silent> <C-e> :FlutterOutlineOpen<CR>
-nnoremap <silent> <C-o> :FlutterOutlineToggle<CR>
-nnoremap <silent> <leader>fq :FlutterQuit<CR>
-
-let g:dart_style_guide = 4
-let g:dart_format_on_save = 0
-
+" Coc
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
@@ -164,13 +142,6 @@ endfunction
 
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
 nnoremap <silent> <C-l> :call CocActionAsync('jumpDefinition')<CR>
-
-let g:coc_global_extensions = [
-    \ 'coc-flutter',
-    \ 'coc-snippets',
-    \ 'coc-vimlsp',
-    \ 'coc-go'
-    \ ]
 
 " colorscheme stuff
 colorscheme codedark
