@@ -143,12 +143,15 @@ dashboard.section.header.val = {
 }
 
 dashboard.section.buttons.val = {
-    dashboard.button( "SPC FF", "  > Find file", ":Files<CR>"),
-    dashboard.button( "SPC FH", "  > Recent"   , ":History<CR>"),
+    dashboard.button( "SPC FF", "  > Find files", ":Files<CR>"),
+    dashboard.button( "SPC FH", "  > Recent files"   , ":History<CR>"),
     dashboard.button( "SPC TC", "  > Change colorscheme", ":Colors<CR>"),
-    dashboard.button( "SPC FC", "  > Settings" , ":e C:/Users/ASUS/AppData/Local/nvim/init.vim<CR>"),
-    dashboard.button( "SPC QQ", "  > Quit NEOVIM", ":qa<CR>"),
+    dashboard.button( "SPC NN", "  > New file" , ":new<CR>"),
+    dashboard.button( "SPC QQ", "  > Quit neovim", ":qa<CR>"),
 }
 
 local datetime = os.date(" %d-%m-%Y   %H:%M:%S")
 dashboard.section.footer.val = datetime
+
+-- Nvim Colorizer
+require('colorizer').setup()
