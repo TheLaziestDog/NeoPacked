@@ -3,8 +3,6 @@
     <a href="https://github.com/TheLaziestDog/NvBased/pulse">
       <img src="https://img.shields.io/github/last-commit/TheLaziestDog/NvBased?color=%4dc71f&label=Last%20Commit&logo=github&style=flat-square"/>
     </a>
-    <a href="https://neovim.io">
-      <img src="https://img.shields.io/badge/Neovim-0.7+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white"/>
 </div>
 
 NvBased is a compact neovim config that fit for everyone needs. NvBased uses vimscript and lua in one configuration, So it's not particularly a performance beast. NvBased is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
