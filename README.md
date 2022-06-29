@@ -46,6 +46,8 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 	- [Node](https://nodejs.org/en/)
 
 ## 🔨  Installation
+##### Run these commands on powershell
+
 #### Make a backup of your current nvim folder
 
 ```
