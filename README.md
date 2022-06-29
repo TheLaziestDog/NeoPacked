@@ -50,7 +50,6 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 
 ```
 move ~/.config/nvim ~/.config/nvimbackup
-
 ```
 
 #### Clone the repository
