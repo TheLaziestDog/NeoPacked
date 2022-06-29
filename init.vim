@@ -48,6 +48,7 @@ Plug 'ap/vim-buftabline' " basic bufferline
 Plug 'akinsho/toggleterm.nvim' " terminal
 Plug 'nvim-lua/plenary.nvim' " for lua stuff, idk
 Plug 'goolord/alpha-nvim' " dashboard
+Plug 'norcalli/nvim-colorizer.lua'  colorhighlighter
 
 " Fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fzf binaries
