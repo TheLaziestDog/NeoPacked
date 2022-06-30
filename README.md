@@ -20,7 +20,7 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 
 
 ## 🔌 Plugins List
-- Theme that based on the kanagawa wave [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
+- Theme that based of the kanagawa wave [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
 - Pretty statusline by [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - File navigation / manager with [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - Basic but functional bufferline by [vim-buftabline](https://github.com/ap/vim-buftabline)
