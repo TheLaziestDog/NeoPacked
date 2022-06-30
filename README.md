@@ -14,12 +14,13 @@
 NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses vimscript and lua in a one configuration, So it's not particularly a performance beast. NeoPacked is built for everyday programmer that just want to start using neovim that doesnt really care about the editor performance.
 
 ## ✨ Showcase ✨
-![Dashboard](https://user-images.githubusercontent.com/108339770/176351253-3831355c-6d51-4fe0-ab69-27160a1aebea.png)
-![Showcase_2](https://user-images.githubusercontent.com/108339770/176351657-e6f25b58-b1c1-41f3-8610-d032c8974122.png)
-![Showcase_3](https://user-images.githubusercontent.com/108339770/176351953-560cfc54-c79d-44fc-9b59-bab765060c3a.png)
+![Showcase1](https://user-images.githubusercontent.com/108339770/176660160-fba02616-4009-4525-9ee8-163b137cb268.png)
+![Showcase2](https://user-images.githubusercontent.com/108339770/176660055-be027c4f-fce2-40d2-86d7-c4c61447ebf7.png)
+![Showcase3](https://user-images.githubusercontent.com/108339770/176660080-542e5d91-da06-42c5-b429-f8ee16c2f763.png)
+
 
 ## 🔌 Plugins List
-- Vscode like theme with [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
+- Theme that based on the kanagawa wave [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
 - Pretty statusline by [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - File navigation / manager with [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - Basic but functional bufferline by [vim-buftabline](https://github.com/ap/vim-buftabline)
