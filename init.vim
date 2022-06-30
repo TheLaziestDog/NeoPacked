@@ -35,7 +35,7 @@ filetype indent on
 call plug#begin()
 
 " Colorscheme
-Plug 'tomasiser/vim-code-dark' " vscode style colorscheme
+Plug 'rebelot/kanagawa.nvim' " Theme based of the great kanagawa wave (the painting)
 
 " General
 Plug 'nvim-lualine/lualine.nvim' " Status bar
