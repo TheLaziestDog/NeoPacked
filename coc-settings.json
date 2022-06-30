@@ -34,7 +34,5 @@
       "typeParameter": "  TypeParameter", 
       "default": "  Default"
    },
-   "coc.preferences.formatOnSaveFiletypes": [
-        "dart"
-    ] 
+
 }  
