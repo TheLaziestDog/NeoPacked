@@ -15,9 +15,8 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 
 ## ✨ Showcase ✨
 ![Showcase1](https://user-images.githubusercontent.com/108339770/176660160-fba02616-4009-4525-9ee8-163b137cb268.png)
-![Showcase2](https://user-images.githubusercontent.com/108339770/176660055-be027c4f-fce2-40d2-86d7-c4c61447ebf7.png)
 ![Showcase3](https://user-images.githubusercontent.com/108339770/176660080-542e5d91-da06-42c5-b429-f8ee16c2f763.png)
-
+![Showcase2](https://user-images.githubusercontent.com/108339770/176660055-be027c4f-fce2-40d2-86d7-c4c61447ebf7.png)
 
 ## 🔌 Plugins List
 - Theme that based of the kanagawa wave [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
