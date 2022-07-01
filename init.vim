@@ -76,9 +76,7 @@ nnoremap <silent> <A-[> :bfirst<CR>
 nnoremap <silent> <A-]> :blast<CR>
 
 " lua stuff
-lua require('retro.vui')
-lua require('retro.vux')
-lua require('retro.ven')
+lua require('retro')
 
 " for multiple cursor
 let g:VM_maps = {}
