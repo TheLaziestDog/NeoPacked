@@ -1,5 +1,4 @@
 let mapleader = " "
-let $PATH = "C:\\Program Files\\Git\\usr\\bin;" . $PATH
 
 set termguicolors
 set tabstop=4 
