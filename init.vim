@@ -54,6 +54,7 @@ Plug 'norcalli/nvim-colorizer.lua' " colorhighlighter for hex, etc
 
 " Telescope
 Plug 'nvim-telescope/telescope.nvim' " fuzzy finder
+Plug "LinArcX/telescope-command-palette.nvim" " command palette
 
 " Auto Completeion, lsp, etc
 Plug 'neoclide/coc.nvim'  " Auto Completion
