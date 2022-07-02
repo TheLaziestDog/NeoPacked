@@ -1,3 +1,7 @@
+--- | VUI | ---
+
+-- this is where you put all your ui related plugins & settings
+
 -- Toggleterm
 require("toggleterm").setup()
 
