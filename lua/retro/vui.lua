@@ -147,9 +147,9 @@ dashboard.section.header.val = {
 }
 
 dashboard.section.buttons.val = {
-    dashboard.button( "SPC FF", "  > Find files", ":Files<CR>"),
-    dashboard.button( "SPC FH", "  > Recent files"   , ":History<CR>"),
-    dashboard.button( "SPC TC", "  > Change colorscheme", ":Colors<CR>"),
+    dashboard.button( "SPC FF", "  > Find files", ":Telescope find_files<CR>"),
+    dashboard.button( "SPC FH", "  > Recent files"   , ":Telescope oldfiles<CR>"),
+    dashboard.button( "SPC TC", "  > Change colorscheme", ":Telescope colorscheme<CR>"),
     dashboard.button( "SPC NN", "  > New file" , ":new<CR>"),
     dashboard.button( "SPC QQ", "  > Quit neovim", ":qa<CR>"),
 }
