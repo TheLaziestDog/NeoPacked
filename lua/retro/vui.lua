@@ -10,7 +10,7 @@ require("toggleterm").setup()
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'iceberg_dark',
+    theme = 'codedark',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {"NvimTree", "vim-plug", "alpha"},
