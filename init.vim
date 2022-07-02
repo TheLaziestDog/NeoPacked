@@ -49,9 +49,8 @@ Plug 'nvim-lua/plenary.nvim' " for lua stuff, idk
 Plug 'goolord/alpha-nvim' " dashboard
 Plug 'norcalli/nvim-colorizer.lua' " colorhighlighter for hex, etc
 
-" Fzf
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fzf binaries
-Plug 'junegunn/fzf.vim' " fzf port for vim
+" Telescope
+Plug 'nvim-telescope/telescope.nvim' " fuzzy finder
 
 " Auto Completeion, lsp, etc
 Plug 'neoclide/coc.nvim'  " Auto Completion
