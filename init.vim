@@ -1,3 +1,5 @@
+" -- [ General ] --
+
 let mapleader = " "
 
 set termguicolors
@@ -31,6 +33,8 @@ set noshowmode
 set completeopt-=preview " For No Previews
 filetype indent on
 
+" -- [ Vim-Plug ] --
+
 call plug#begin()
 
 " Colorscheme
@@ -58,28 +62,35 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Syntax highliting
 set encoding=UTF-8
 call plug#end()
 
-" general uses
+" -- [ Mappings ] --
+
+" -- General --
 nnoremap <silent> <C-s> :w<CR>
 nnoremap <silent> <leader>qq :wq<CR>
 
-" NvimTree mappings
+" -- NvimTree --
 nnoremap <silent> <leader>e :NvimTreeFocus<CR>
 nnoremap <silent> <leader>o :NvimTreeClose<CR>
 
-" buftabline mappings
+" -- Buftabline --
 nnoremap <silent> <A-.> :bnext<CR>
 nnoremap <silent> <A-,> :bprev<CR>
 nnoremap <silent> <A-c> :bdelete<CR>
 nnoremap <silent> <A-[> :bfirst<CR>
 nnoremap <silent> <A-]> :blast<CR>
 
-" lua stuff
-lua require('retro')
-
-" for multiple cursor
+" -- Multiple Cursor --
 let g:VM_maps = {}
 let g:VM_maps['Find Under']         = '<C-d>'           " replace C-n
 let g:VM_maps['Find Subword Under'] = '<C-d>'           " replace visual C-n
+
+" -- [ General Config ] --
+
+" To connect init.lua to init.vim
+lua require('retro')
+
+" colorscheme stuff
+colorscheme codedark
 
 " for splitting tabs / buffers
 set splitbelow splitright
@@ -92,6 +103,7 @@ nnoremap <leader>a <C-w>h
 nnoremap <leader>s <C-w>j
 nnoremap <leader>w <C-w>k
 nnoremap <leader>d <C-w>l
+
 " Make adjusing split sizes a bit more friendly
 noremap <silent> <A-a> :vertical resize +3<CR>
 noremap <silent> <A-d> :vertical resize -3<CR>
@@ -102,7 +114,9 @@ noremap <silent> <A-s> :resize -3<CR>
 map <Leader>ds <C-w>t<C-w>H
 map <Leader>sa <C-w>t<C-w>K
 
-" toggleterm setting
+" -- [ Plugin Configs ] --
+
+" -- Toggleterm --
 
 " set
 autocmd TermEnter term://*toggleterm#*
@@ -114,7 +128,7 @@ autocmd TermEnter term://*toggleterm#*
 nnoremap <silent><leader>\\ <Cmd>exe v:count1 . "ToggleTerm"<CR>
 inoremap <silent><leader>\\ <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>
 
-" Coc
+" -- Coc --
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
@@ -137,6 +151,3 @@ endfunction
 
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
 nnoremap <silent> <C-l> :call CocActionAsync('jumpDefinition')<CR>
-
-" colorscheme stuff
-colorscheme codedark
