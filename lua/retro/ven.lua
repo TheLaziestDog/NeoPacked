@@ -1,3 +1,7 @@
+--- | VEN | ---
+
+-- this is where you put your Lsp settings, Syntax highlighting settings, etc
+
 -- Treesitter
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
