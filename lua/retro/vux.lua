@@ -1,3 +1,7 @@
+--- | VUX (Vast User eXperience)| --
+
+-- This is the file where you initialize all of your plugin, functions, etc that are related to user experience
+
 -- Autopairs
 local remap = vim.api.nvim_set_keymap
 local npairs = require('nvim-autopairs')
