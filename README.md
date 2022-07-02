@@ -25,7 +25,7 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 - Basic but functional bufferline by [vim-buftabline](https://github.com/ap/vim-buftabline)
 - Pretty and customizable terminal toggler by [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - Customizable screen greeter by [alpha-nvim](https://github.com/goolord/alpha-nvim)
-- Fuzzy finder (file searching, previewing code, word finder, etc) by [fzf.vim](https://github.com/junegunn/fzf)
+- A highly extendable fuzzy finder by [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - Autocompletion with [coc.nvim](https://github.com/neoclide/coc.nvim)
 - Syntax highlighting with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - Autoclosing braces and html tags with  [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
@@ -40,7 +40,6 @@ NeoPacked is a compact neovim config that fit for everyone needs. NeoPacked uses
 ## ⚡ Requirement
 - [Nerd Font](https://www.nerdfonts.com/font-downloads)
 - [Neovim 0.7 +](https://github.com/neovim/neovim/releases/tag/v0.7.0)
-- [Fzf](https://github.com/junegunn/fzf)
 - [Git](https://git-scm.com/)
 - C compiler, like [llvm](https://llvm.org), [gcc](https://gcc.gnu.org), [cl](https://docs.microsoft.com/en-us/cpp/build/reference/compiler-options?view=msvc-170), [zig](https://ziglang.org/), etc
 - Optional requirements:
