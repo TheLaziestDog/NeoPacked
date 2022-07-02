@@ -35,7 +35,7 @@ filetype indent on
 call plug#begin()
 
 " Colorscheme
-Plug 'rebelot/kanagawa.nvim' " Theme based of the great kanagawa wave (the painting)
+Plug'tomasiser/vim-code-dark' " vscode like theme
 
 " General
 Plug 'nvim-lualine/lualine.nvim' " Status bar
@@ -104,9 +104,8 @@ noremap <silent> <A-s> :resize -3<CR>
 map <Leader>ds <C-w>t<C-w>H
 map <Leader>sa <C-w>t<C-w>K
 
-set fillchars+=vert:│
-
 " toggleterm setting
+
 " set
 autocmd TermEnter term://*toggleterm#*
       \ tnoremap <silent><leader>\\ <Cmd>exe v:count1 . "ToggleTerm"<CR>
